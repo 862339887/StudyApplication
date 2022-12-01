@@ -1,0 +1,330 @@
+{
+  "demo": [
+    {
+      "english_word": [
+        {
+          "english": "tap",
+          "stu_answer": "tap",
+          "identify_result": "tap",
+          "is_write_from_memory": "true",
+          "is_answer_right": "false",
+          "annotationList": [
+            {
+              "annotation": "n. 水龙头；轻敲"
+            },
+            {
+              "annotation": "v. 轻叩，轻敲；监听，窃听（电话）；开发，发掘；利用"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "english_word": [
+        {
+          "english": "abide",
+          "stu_answer": "abide",
+          "identify_result": "abide",
+          "is_write_from_memory": "true",
+          "is_answer_right": "false",
+          "annotationList": [
+            {
+              "annotation": "vt. 忍受，容忍；停留,同近"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "english_word": [
+        {
+          "english": "absorption",
+          "stu_answer": "absorption",
+          "identify_result": "absorption",
+          "is_write_from_memory": "true",
+          "is_answer_right": "false",
+          "annotationList": [
+            {
+              "annotation": "n,吸收；全神贯注，专心致志,同近"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "english_word": [
+        {
+          "english": "alien",
+          "stu_answer": "alien",
+          "identify_result": "alien",
+          "is_write_from_memory": "true",
+          "is_answer_right": "false",
+          "annotationList": [
+            {
+              "annotation": "adj,外国的；相异的，性质不同的；不相容的,同近"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "english_word": [
+        {
+          "english": "comment",
+          "stu_answer": "comment",
+          "identify_result": "comment",
+          "is_write_from_memory": "true",
+          "is_answer_right": "false",
+          "annotationList": [
+            {
+              "annotation": "n. 评论，意见；体现，写照"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "english_word": [
+        {
+          "english": "plate",
+          "stu_answer": "plate",
+          "identify_result": "plate",
+          "is_write_from_memory": "true",
+          "is_answer_right": "false",
+          "annotationList": [
+            {
+              "annotation": "vt. 电镀 "
+            },
+            {
+              "annotation": "n. 盘子，盆子； 金属板 "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "english_word": [
+        {
+          "english": "incorrect",
+          "stu_answer": "incorrect",
+          "identify_result": "incorrect",
+          "is_write_from_memory": "true",
+          "is_answer_right": "false",
+          "annotationList": [
+            {
+              "annotation": "adj. 不正确的，错误的"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "english_word": [
+        {
+          "english": "northwest",
+          "stu_answer": "northwest",
+          "identify_result": "northwest",
+          "is_write_from_memory": "true",
+          "is_answer_right": "false",
+          "annotationList": [
+            {
+              "annotation": "adj. 位于西北的"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "english_word": [
+        {
+          "english": "direct",
+          "stu_answer": "direct",
+          "identify_result": "direct",
+          "is_write_from_memory": "true",
+          "is_answer_right": "false",
+          "annotationList": [
+            {
+              "annotation": "adj. 直接的；直达的；直接照射的；坦率的"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "english_word": [
+        {
+          "english": "partial",
+          "stu_answer": "partial",
+          "identify_result": "partial",
+          "is_write_from_memory": "true",
+          "is_answer_right": "false",
+          "annotationList": [
+            {
+              "annotation": " adj. 部分的；偏爱的；偏袒的"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "english_word": [
+        {
+          "english": "admire",
+          "stu_answer": "admire",
+          "identify_result": "admire",
+          "is_write_from_memory": "true",
+          "is_answer_right": "false",
+          "annotationList": [
+            {
+              "annotation": " vt. 钦佩；羡慕；欣赏"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "english_word": [
+        {
+          "english": "thermometer",
+          "stu_answer": "thermometer",
+          "identify_result": "thermometer",
+          "is_write_from_memory": "true",
+          "is_answer_right": "false",
+          "annotationList": [
+            {
+              "annotation": " n. 温度计，体温表"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "english_word": [
+        {
+          "english": "rhythm",
+          "stu_answer": "rhythm",
+          "identify_result": "rhythm",
+          "is_write_from_memory": "true",
+          "is_answer_right": "false",
+          "annotationList": [
+            {
+              "annotation": "n. 韵律；节奏"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "english_word": [
+        {
+          "english": "rice",
+          "stu_answer": "rice",
+          "identify_result": "rice",
+          "is_write_from_memory": "true",
+          "is_answer_right": "false",
+          "annotationList": [
+            {
+              "annotation": "n. 稻米，大米"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "english_word": [
+        {
+          "english": "nut",
+          "stu_answer": "nut",
+          "identify_result": "nut",
+          "is_write_from_memory": "true",
+          "is_answer_right": "false",
+          "annotationList": [
+            {
+              "annotation": " n. 坚果，干果；螺母"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "english_word": [
+        {
+          "english": "judge",
+          "stu_answer": "judge",
+          "identify_result": "judge",
+          "is_write_from_memory": "true",
+          "is_answer_right": "false",
+          "annotationList": [
+            {
+              "annotation": "n. 法官；裁判员"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "english_word": [
+        {
+          "english": "weather",
+          "stu_answer": "weather",
+          "identify_result": "weather",
+          "is_write_from_memory": "true",
+          "is_answer_right": "false",
+          "annotationList": [
+            {
+              "annotation": " n. 天气"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "english_word": [
+        {
+          "english": "expand",
+          "stu_answer": "expand",
+          "identify_result": "expand",
+          "is_write_from_memory": "true",
+          "is_answer_right": "false",
+          "annotationList": [
+            {
+              "annotation": " vt. 扩大，增加"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "english_word": [
+        {
+          "english": "hang",
+          "stu_answer": "hang",
+          "identify_result": "hang",
+          "is_write_from_memory": "true",
+          "is_answer_right": "false",
+          "annotationList": [
+            {
+              "annotation": " vt. 悬挂，吊；绞死"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "english_word": [
+        {
+          "english": "childish",
+          "stu_answer": "childish",
+          "identify_result": "childish",
+          "is_write_from_memory": "true",
+          "is_answer_right": "false",
+          "annotationList": [
+            {
+              "annotation": " adj. 孩子的；幼稚的"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

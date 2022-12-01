@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:background="@drawable/diaolog_background"
+    android:paddingLeft="20dp"
+    android:paddingTop="13dp"
+    android:paddingRight="19dp"
+    android:paddingBottom="19dp">
+
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:gravity="center"
+        android:text="跳过原因"
+        android:textStyle="bold"
+        android:textColor="#0D1F2A"
+        android:textSize="14sp" />
+
+    <GridView
+        android:id="@+id/skip_content"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/dialog_title"
+        android:numColumns="2"
+        android:scrollbars="none"
+        android:layout_gravity="center_horizontal"
+        android:verticalSpacing="15dp"
+        android:layout_marginTop="20dp"/>
+
+    <LinearLayout
+        android:id="@+id/btn_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/skip_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/cancel_btn"
+            android:layout_width="0dp"
+            android:layout_height="29dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:paddingLeft="52dp"
+            android:text="取消"
+            android:paddingRight="52dp"
+            android:textColor="#2391FE"
+            android:textSize="13sp"
+            android:layout_marginEnd="19dp"
+            android:background="@drawable/btn_cancel_background"
+            android:layout_marginRight="19dp" />
+
+        <Button
+            android:id="@+id/confirm_btn"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="确定"
+            android:paddingLeft="52dp"
+            android:paddingRight="52dp"
+            android:textColor="#FFFFFF"
+            android:textSize="13sp"
+            android:background="@drawable/btn_confirm_background"
+            />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
