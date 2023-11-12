@@ -2,6 +2,7 @@ package com.example.studyapplication.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.studyapplication.AnrTestActivity
 import com.example.studyapplication.adapter.EntranceListViewAdapter
 import com.example.studyapplication.R
 import kotlinx.android.synthetic.main.activity_main.*
@@ -14,10 +15,13 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         initActivityGroup()
         initView()
+
     }
 
     private fun initActivityGroup() {
         activityGroup.apply {
+            add(Pair("Test3DRotateActivity", Test3DRotateActivity::class.java))
+            add(Pair("EqualsTestActivity", EqualsTestActivity::class.java))
             add(Pair("SwitchTestActivity", SwitchTestActivity::class.java))
             add(Pair("ReflectActivity", ReflectActivity::class.java))
             add(Pair("LogTestActivity", LogTestActivity::class.java))
@@ -59,6 +63,11 @@ class MainActivity : AppCompatActivity() {
             add(Pair("BitmapTestCompressActivity", BitmapTestCompressActivity::class.java))
             add(Pair("LeetCodeActivity", LeetCodeActivity::class.java))
             add(Pair("SpanTestActivity", SpanTestActivity::class.java))
+            add(Pair("AnrTestActivity", AnrTestActivity::class.java))
+            add(Pair("TraceTestActivity", TraceTestActivity::class.java))
+            add(Pair("TraceActivity", TraceActivity::class.java))
+            add(Pair("NetApiTestActivity", NetApiTestActivity::class.java))
+            add(Pair("MemoryTestActivity", MemoryTestActivity::class.java))
         }
     }
 

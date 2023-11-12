@@ -74,6 +74,7 @@ class RecyclerViewTestAdapter constructor(
 
 
     class WordViewHolder(view: View) : RecyclerView.ViewHolder(view) {
+
         val text = view.findViewById<TextView>(R.id.test_tv)
 //        val root = view.findViewById<LinearLayout>(R.id.root)
     }

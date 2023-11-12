@@ -4,6 +4,8 @@
     <option name="contentRoots">
       <list>
         <option value="$PROJECT_DIR$" />
+        <option value="$PROJECT_DIR$/testapplication" />
+        <option value="$PROJECT_DIR$/mylibrary" />
         <option value="$PROJECT_DIR$/app" />
       </list>
     </option>

@@ -16,7 +16,43 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.StudyApplication">
-        <activity android:name=".activity.SwitchTestActivity"></activity>
+        <activity
+            android:name=".MemoryTestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.NetApiTestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.TraceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TraceTestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AnrTestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Test3DRotateActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ThreeDRotateActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".activity.EqualsTestActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity android:name=".activity.SwitchTestActivity" />
         <activity android:name=".activity.ReflectActivity" />
         <activity android:name=".activity.LogTestActivity" />
         <activity android:name=".activity.SpanTestActivity" />
@@ -81,6 +117,7 @@
         <activity android:name=".activity.DialogLifeCycleActivity" />
         <activity android:name=".activity.CanvasDrawActivity" />
         <activity android:name=".activity.CoroutineScopeActivity" />
+        <activity android:name=".activity.Test3DRotateActivity" />
         <activity android:name=".activity.KotlinFunctionActivity" />
         <activity android:name=".activity.LifeCycleActivityTest1" />
         <activity android:name=".activity.LifeCycleTestActivity" />
